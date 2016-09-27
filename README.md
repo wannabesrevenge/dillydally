@@ -1,5 +1,8 @@
 # dillydally
 
+## Install
+`npm install dillydally`
+
 ## How to use
 ```javascript
 var queue = require('dillydally');
