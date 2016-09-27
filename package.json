@@ -1,0 +1,37 @@
+{
+  "name": "dillydally",
+  "version": "0.0.1",
+  "description": "In memory job and function queue for Node JS",
+  "main": "queue.js",
+  "scripts": {
+    "test": "istanbul cover _mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wannabesrevenge/dillydally.git"
+  },
+  "keywords": [
+    "queue",
+    "nodejs",
+    "job",
+    "function",
+    "limit",
+    "bottleneck",
+    "rate",
+    "rate-limit",
+    "delay"
+  ],
+  "author": "Brian Schultz <brian@tunecakes.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/wannabesrevenge/dillydally/issues"
+  },
+  "homepage": "https://github.com/wannabesrevenge/dillydally#readme",
+  "devDependencies": {
+    "bluebird": "^3.4.6",
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.0.2",
+    "sinon": "^1.17.6"
+  }
+}
