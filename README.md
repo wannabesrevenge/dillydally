@@ -13,9 +13,13 @@ function foo() { return 'party'; }
 // Function returns a promise
 function bar() { return Promise.resolve('poop'); }
 
+// Function with arguments
+function yarg(a) { return a; }
+
 // Add a function to run in the job queue
 queue.addJob(foo).then(console.log) // prints 'party'
 queue.addJob(bar).then(console.log) // prints 'poop'
+queue.addJob(yarg, 'derp').then(console.log) // prints 'derp'
 
 // waits 500 ms then prints 'party'
 queue.addJob(500, foo).then(console.log)
